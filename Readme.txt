@@ -1,5 +1,8 @@
+Script Explanation :
+
 Let's break down the provided JavaScript code in detail, focusing on its purpose, structure, and functionality. This code appears to implement a graph visualization tool using the Vis.js library, specifically for calculating and displaying articulation points in a graph.
 Code Breakdown
+
 1. Initialization
 
 javascript
