@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Points d'Articulation dans un Graphe</title>
+    <script src="vis-network.min.js"></script>
+    <link rel="stylesheet" href="./Tpro_Tp.css">
+</head>
+<body>
+    <h2>Visualisation des Points d'Articulation</h2>
+    <div class="controls">
+        <input type="text" id="node1" placeholder="Sommet 1">
+        <input type="text" id="node2" placeholder="Sommet 2">
+        <button onclick="addEdge()">Ajouter Arête</button>
+        <button onclick="findArticulationPoints()">Calculer Points d'Articulation</button>
+        <button onclick="clearGraph()">Effacer le Graph</button>
+    </div>
+    <div id="network"></div>
+    <div class="results">
+        <h3>Points d'Articulation:</h3>
+        <ul id="articulationPointsList"></ul>
+    </div>
+    <script src="./Tpro_Tp.js"></script>
+</body>
+</html>
